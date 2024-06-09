@@ -1,0 +1,19 @@
+{
+  "name": "node_js_express_api",
+  "version": "1.0.0",
+  "description": "Express server API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automationblog/node_js_express_api.git"
+  },
+  "author": "Alwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/automationblog/node_js_express_api/issues"
+  },
+  "homepage": "https://github.com/automationblog/node_js_express_api#readme"
+}
