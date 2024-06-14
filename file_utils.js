@@ -6,7 +6,8 @@ const writeFile = () => {
     if (!fs.existsSync("files")) {
       fs.mkdirSync("files");
     }
-    fs.writeFileSync(`./files/${Date().toString()}`, `${Date.now()}`);
+    let dateString = Date().toString() + ".txt";
+    fs.writeFileSync(`./files/${dateString}`, `${Date.now()}`);
   } catch (error) {
     console.log(`Error writing file ${error.message}`);
   }
@@ -22,6 +23,6 @@ const readFolder = (folderName) => {
   }
 };
 
-writeFile();
+// writeFile();
 // readFolder();
 export { writeFile, readFolder };

@@ -7,9 +7,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/createFile", (req, res) => {
-  res.send("Create File");
   writeFile();
-  res.send("File Created successfully");
+  res.send({ message: "File Created successfully" });
 });
 
 app.get("/readFolder", (req, res) => {
