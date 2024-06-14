@@ -6,7 +6,7 @@ const writeFile = () => {
     if (!fs.existsSync("files")) {
       fs.mkdirSync("files");
     }
-    let dateString = Date().toString() + ".txt";
+    let dateString = Date().toString();
     fs.writeFileSync(`./files/${dateString}`, `${Date.now()}`);
   } catch (error) {
     console.log(`Error writing file ${error.message}`);
