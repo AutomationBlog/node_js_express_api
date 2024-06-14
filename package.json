@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Express server API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/automationblog/node_js_express_api/issues"
   },
-  "homepage": "https://github.com/automationblog/node_js_express_api#readme"
+  "homepage": "https://github.com/automationblog/node_js_express_api#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
